@@ -19,7 +19,7 @@
 }
 
 .topnav a.active{
-    background-color: #04AA6D;
+    background-color: rgba(255, 0, 0, 0.61);
     color: white;
 }
 
