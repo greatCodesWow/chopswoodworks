@@ -1,0 +1,14 @@
+.App{
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+
+.back-drop {
+    background: rgba(51, 51, 51, 0.541);
+    height: 100%;
+    position: fixed;
+    transition: all 1.3s;
+    width: 100%;
+}

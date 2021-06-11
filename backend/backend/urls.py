@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from backend.wood import views
+from wood import views
 
 router = routers.DefaultRouter()
 router.register(r'wood', views.WoodView, 'wood')
