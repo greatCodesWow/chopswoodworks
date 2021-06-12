@@ -1,93 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container{
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.card {
-    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+.card{
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+    width: 30%;
+}
 
+.card img {
+    width: 100%;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 9 rgba(0, 0, 0, 0.2);
 }
 
-.container{
+.body{
     padding: 2px 16px;
-    justify-content: center;
 }
 
-.btn-openModal {
-    background: #2c2c2c;
-    color: #eee;
-    display: auto;
-    padding: .5rem 1.8rem;
-    margin: 2rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.modal-wrapper {
-    background: #ffff;
-    width: 80%;
-    max-width: 800px;
-    margin: 4rem auto;
-}
-
-.modal-header {
-    background: #2c2c2c;
-    color: #e9e9e9;
-    padding: 1rem;
+.body button {
     display: flex;
-    align-items: center;
-    justify-content:space-between;
-}
-
-.modal-header span {
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-modal-content {
-    padding: 1.5rem 1rem;
-}
-
-.modal-body {
-    margin-bottom: 1rem;
-
-}
-
-.modal-body h4 {
-    font-size: 1.8rem;
-    color: coral;
-}
-
-.modal-body p {
-    font-size: 1rem;
-    background: #eee;
-    color: #333;
-    padding: 1rem;
-    margin: 1rem 0 2rem 0;
-}
-
-.modal-footer button {
-    display: block;
-    font-size: 1rem;
-    margin-left: auto;
-    padding: 0.5rem 1.8rem;
-    background: coral;
-    color: #fff;
     border: none;
-    outline: none;
-    cursor: pointer;
+    background-color: coral;
 }
