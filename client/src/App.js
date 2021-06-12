@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import { connect }  from 'react-redux';
-import { BrowserRouter as Router, Switch, Route, useHistory, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Modal from './components/Modal/Modal';
 import './App.css';
@@ -16,12 +16,12 @@ function App(props) {
   <Router>
     <Modal />
     <div className="App">
-          <Navbar />
-          <Switch>
-            <Route exact path="/pieces">
-              <DisplayPieces />
-            </Route>
-          </Switch>
+        <Navbar />
+        <Switch>
+          <Route exact path="/pieces">
+            <DisplayPieces />
+          </Route>
+        </Switch>
     </div>    
   </Router>
   );
