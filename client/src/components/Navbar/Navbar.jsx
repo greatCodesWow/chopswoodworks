@@ -1,16 +1,27 @@
 import React from 'react';
 import './Navbar.css'
+import { withRouter, Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <div className="topnav" id="myTopnav">
-            <a href="#home" className="active" >Home</a>
-            <a href="#pieces">Pieces</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+        <nav className="topnav" id="myTopnav">
+            <ul>
+                <Link to='/'>
+                    <li className="active" >Home</li>
+                </Link>
+                <Link to='/pieces'>
+                    <li >Pieces</li>
+                </Link>
+                <Link to='/contact'>
+                    <li >Contact</li>
+                </Link>
+                <Link to='/about'>
+                    <li >About</li>
+                </Link>
+            </ul>
             
-        </div>
+        </nav>
     )
 }
 
-export default Navbar
+export default withRouter(Navbar)
