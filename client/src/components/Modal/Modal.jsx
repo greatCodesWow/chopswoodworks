@@ -35,7 +35,7 @@ function Modal(props) {
                             </div>
                             <div>
                                 <div className="modal-content">
-                                    <img  src={image} alt="art"></img>
+                                    <img src={image} alt="art"></img>
                                     <h4>{name}</h4>
                                     <p>{description}</p>
                                 </div>

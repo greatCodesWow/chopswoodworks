@@ -29,3 +29,13 @@
 .modal-header span{
     cursor: pointer;
 }
+
+.modal-content {
+
+}
+
+.modal-content img {
+    width: 100%;
+    height: 100%;
+    
+}
